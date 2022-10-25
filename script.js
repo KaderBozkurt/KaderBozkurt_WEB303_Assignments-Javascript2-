@@ -1,4 +1,9 @@
+/*
+    Assignment 05
+*/
+
 $(document).ready(function () {
+    // your code here
     class ContentItem {
       constructor(id, name, genre,description) {
         this.id = id;
