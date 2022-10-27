@@ -16,7 +16,7 @@ $(document).ready(function () {
   
      //create update method
       updateContentItem(id,name,description,genre){
-        if((name!=null) || (description!=null) || (genre!=null)(id!=null)){
+        if((name!=null) || (description!=null) || (genre!=null)||(id!=null)){
           this.id=id; 
           this.name=name;
             this.description=description;
