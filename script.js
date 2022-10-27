@@ -4,6 +4,8 @@
 
 $(document).ready(function () {
     // your code here
+
+    //create class
     class ContentItem {
       constructor(id, name, genre,description) {
         this.id = id;
@@ -12,15 +14,16 @@ $(document).ready(function () {
       this.description = description;
       }
   
-     
-      updateContentItem(name,description,genre){
-        if((name!=null) || (description!=null) || (genre!=null)){
-            this.name=name;
+     //create update method
+      updateContentItem(id,name,description,genre){
+        if((name!=null) || (description!=null) || (genre!=null)(id!=null)){
+          this.id=id; 
+          this.name=name;
             this.description=description;
             this.genre=genre;
         }
     }
-  
+  //create string method
       toString() {
         const ContentItemHtml = `
           <div class=" content-item-wrapper" id="content-item-0-${this.id}" style="border: black 1px solid; padding:5px; margin-bottom:8px;">
@@ -32,7 +35,7 @@ $(document).ready(function () {
         return ContentItemHtml;
       }
     }
-  
+  //create an array of 5 content items
     const moviesArray = [
       new ContentItem(
         0,
