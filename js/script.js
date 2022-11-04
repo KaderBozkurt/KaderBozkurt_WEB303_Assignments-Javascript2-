@@ -33,6 +33,10 @@ $(document).ready(function(){
 
     });
 
-
+    let cite = document.createElement("cite");
+    cite.textContent = "Information and photos from Wikipedia";
+    cite.setAttribute("href", "https://en.wikipedia.org/wiki/Billie_Eilish");
+    let ftr = document.getElementsByTagName('footer')[0];
+    ftr.appendChild(cite);
 
 });
