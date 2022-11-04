@@ -1,4 +1,143 @@
-html, body{
-    margin: 0;
-    padding: 0;
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 11px;
+    margin: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 162, 162);
 }
+
+.section1 {
+    
+    display: block;
+    width: 70%;
+    float: right;
+    clear: both;
+    flex-wrap: wrap;
+    
+
+}
+.section2 {
+    display: block;
+    flex-wrap: wrap;
+    width: 73%;
+    float: inline-end;
+    column-gap: 5px;
+}
+
+ .content {
+    object-fit:cover;
+    width: 96%;
+} 
+
+
+
+
+
+.accordian {
+    width: 100%;
+}
+
+.accordian .box {
+    width:70%;
+    position: relative;
+    list-style: none;
+}
+
+a.title1 {
+    display: block;
+    width: 100%;
+    position: relative;
+    background-color:  rgb(222, 174, 174);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center; 
+    font-size: 2em;
+    color: darksalmon;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+    border: solid darksalmon;
+    
+}
+p.cite{
+    background-color: rgb(222, 174, 174);
+}
+.content {
+    
+    font-size: 2em;   
+    background-color:  rgb(222, 174, 174);
+    color: white;
+    padding: 25px;
+    
+    
+
+}
+
+.tab li {
+    display: block;
+    width: 33.33%;
+    list-style: none;
+    text-align: center;
+    float: left;
+    background-color: white;
+    color:black;
+    
+    
+    
+}
+.tabAnchor {
+    height: 30px;
+    margin: 0 1px 0 0;
+    display: block;
+    background-color: sandybrown;
+    color: rgb(222, 174, 174);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.panel2 {
+    display: none;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    font-size:  2em;
+    border: solid darksalmon;
+    
+}
+
+.panel2.active {
+    display: block;
+    
+}
+h1{
+    font-size: 44px;
+    color:dodgerblue;
+    text-align: center;
+    text-decoration: underline overline;
+    background-color: darksalmon;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 100%;
+    padding: 25px;
+    margin-top: 0em;
+    height: 7%;
+    }
+    
+
+#mg{float: left;
+position:absolute;}
+
+footer {
+    position: fixed;
+   
+   bottom: 0;
+   width: 100%;
+    text-align: center;
+    padding: 25px;
+    background-color: DarkSalmon;
+    color: white;
+    
+  
+    
+  }
