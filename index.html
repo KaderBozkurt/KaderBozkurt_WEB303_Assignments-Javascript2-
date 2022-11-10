@@ -1,134 +1,35 @@
-<!DOCTYPE html>
-    <html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <title> Accordion and Tabs</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="css/style.css" rel="stylesheet">
-    
+    <link href="css/photoViewer.css" rel="stylesheet">
 </head>
 
 <body>
-    
-    <h1>Billi Eilish</h1>
-    
-    <section class="section1">
-        <div>
-            <img id="mg"src="mg/billi.jpg" style="width: 200px; height:auto; float:right; display: block; margin-top: -6%; padding: 5%;" >
+    <h1>Kader Bozkurt-Photo Gallery</h1>
+    <div id="photo-viewer">
+        <a href="#" class="photo-box is-loading"></a>
+        <div class="photo-thumbnails">
+            <a href="img/fall.jpg" class="thumbnail-anchor active" title="Bike in Fall">
+                <img src="img/fall.thumb.jpg" alt="thumbnail 1">
+            </a>
+            <a href="img/fall1.jpg" class="thumbnail-anchor " title="Sunshine Fall">
+                <img src="img/fall1.jpg" alt="thumbnail 2">
+            </a>
+            <a href="img/fall2.jpg" class="thumbnail-anchor" title="Road in autumn ">
+                <img src="img/fall2.thumb.jpg" alt="thumbnail 3">
+            </a>
+            <!-- Add more images here -->
         </div>
-        <ul class="accordian">
-            <li class="box">
-                <a href="" class="title1">Billie Eilish</a>
-                <p class="content">Eilish's first studio album, When We All Fall Asleep, Where Do We Go? (2019), 
-                    debuted atop the US Billboard 200 and UK Albums Chart. It was one of the best-selling albums of the year,
-                     buoyed by the success of its fifth single "Bad Guy", Eilish's first number-one on the US Billboard Hot 100. 
-                     This made her the first artist born in the 21st century to release a chart-topping single. The following year,
-                      Eilish performed the theme song "No Time to Die" for the James Bond film of the same name, 
-                      which topped the UK Singles Chart and won the Academy Award for Best Original Song in 2022.
-                     Her second studio album, Happier Than Ever (2021), topped the charts in 25 countries.
-                     
-                    </p>
-            </li>
-            <li class="box">
-                <a href="" class="title1">About Us</a>
-                <ul class="content">
-                    <li>Born: December 18, 2001 (age 20)
-                        Los Angeles, California, U.S.
-                        Team: San Fransico 49ers & others</li>
-                    <li>Occupation: Singersongwriter </li>
-                    <li>Years active:	2015–present</li>
-                    <li>Works: Discographysongs recorded</li>
-                    <li>Instrument(s):Vocals guitar</li>                   
-                                          
-                </ul>
-            </li>
-            <li class="box">
-                <a href="" class="title1">Pictures</a>
-                <img class="content" src="mg/b2.jpg" alt="billi" >
-                
-                               
-                
-
-            </li>
-            <li class="box">
-                <a href="" class="title1">Career</a>
-                <ul class="content">
-                    <li>2015–2017: Don't Smile at Me</li>
-                    <li>2018–2020: When We All Fall Asleep, Where Do We Go?</li>
-                    <li>2021–present: Happier Than Ever and Guitar Songs</li>
-                </ul>
-            </li>
-            <li class="box">
-                <a href="" class="title1">Early life</a>
-                <p class="content"> Billie Eilish Pirate Baird O'Connell was born in Los Angeles, California on December 18, 2001.[5]
-                     She is the daughter of actress and teacher Maggie Baird[6][7] and actor Patrick O'Connell,[8]
-                      both of whom are also musicians and work on Eilish's tours.[9][10][11] Eilish is of Irish and Scottish descent.[12]
-                       She was conceived via in vitro fertilization.[13] Her middle name, Eilish, was originally meant to be her first name,
-                        while Pirate was to be her middle name.[14] She was raised in the Highland Park neighborhood of Los Angeles.[15][16]
-                    Eilish and her brother Finneas were homeschooled by Baird, a decision their parents made to spend time with them and give them the freedom to pursue their interests.[8][11] Baird taught Eilish and Finneas the basics of songwriting.[17] Eilish said her brother and mother inspired her to get into music.[18] Their parents encouraged the siblings to express themselves and explore whatever they wanted, including art, dancing, and acting.[9][17] Eilish also performed at talent shows and joined the Los Angeles Children's Chorus at age eight.[19][17] At age six, she started playing the ukulele.[20] She wrote her first "real" song at age 11 for her mother's songwriting class. The song is about the zombie apocalypse, inspired by the television series The Walking Dead from which she took script lines and episode titles for the song.[21][18] Eilish had gone on some acting auditions, which she disliked; however, she enjoyed recording background dialogue for crowd scenes and worked on the films Diary of a Wimpy Kid, Ramona and Beezus, and the X-Men series.[17] Eilish also took dance classes until 2016, 
-                    when a growth plate injury put an end to her dancing career and she turned her focus toward recording music.</p>
-            </li>
-        </ul>
-        
-    </section>
+    </div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/photoViewer.js"></script>
     
-    <section class="section2">
-        <ul class="tab">
-            <li class="active">
-                <a class="tabAnchor" href="#tab1">Billie Eilish</a>
-            </li>
-            <li>
-                <a class="tabAnchor" href="#tab2">Artistry</a>
-            </li>
-            <li>
-                <a class="tabAnchor" href="#tab3">Awards</a>
-            </li>
-            <div class="panel2 active" id="tab1">
-                <p class="content2">It was one of the best-selling albums of the year,
-                    buoyed by the success of its fifth single "Bad Guy", Eilish's first number-one on the US Billboard Hot 100. 
-                    This made her the first artist born in the 21st century to release a chart-topping single. The following year,
-                     Eilish performed the theme song "No Time to Die" for the James Bond film of the same name, 
-                     which topped the UK Singles Chart and won the Academy Award for Best Original Song in 2022.
-                    Her second studio album, Happier Than Ever (2021), topped the charts in 25 countries.
-                    Eilish's first studio album, When We All Fall Asleep, Where Do We Go? (2019), 
-                    debuted atop the US Billboard 200 and UK Albums Chart.
-                </p>
-            </div>
-            <div class="panel2" id="tab2">
-                <h3>Musical style, songwriting, and music videos</h3>
-                <p class="content2">ilish possesses a soprano vocal range. Avery Stone of Noisey described her vocals as "ethereal",
-                     and Maura Johnston of Rolling Stone characterized them as "whispery". Doreen St. Félix of The New Yorker 
-                    opined that she has a "husky, slurring voice that she can thin out to reedy". Music critic Robert Christgau wrote 
-                    that while Eilish is musically and commercially pop, her brand also "reminds us how amorphous [pop] has become", 
-                    describing her soprano as "too diminutive for vocal calisthenics", adding that her "playful version of teen-goth angst" 
-                    and "electro-saturated debut album" captivated a diverse audience.Her music incorporates pop, dark pop,
-                     electropop,[170] emo pop,[171] experimental pop, goth-pop, indie pop,teen pop,and alt-pop.
-                     .Eilish and her brother, Finneas, collaborate on songwriting.[178][179] Finneas writes for Eilish's albums, 
-                     produces her music, and also performs in live shows. Eilish and Finneas "like to completely make up things and become characters" and "have songs that are really fictional".[179] Eilish said a number of the songs also derive from her and Finneas' experiences.[179] They try to write "really interesting and conversational" lyrics: "We try to say stuff that doesn't have to be that deep [...] but you say something way deeper in a certain way that makes sense, but you haven't really thought about."[179] Finneas has stated that when he writes for his sister, he aims to "write [songs] that I think she'll relate to and enjoy singing and empathise with the lyrics and make her own".[181] When he writes with Eilish, he tries "to help her tell whatever story she's trying to tell, bounce ideas off of her, listen to her ideas", and use a language that fits her voice telling the story.[181]
-                    
-                    Eilish had wanted to direct her own music videos since age 14 but was initially not given the opportunity due to lack of 
-                    experience. In 2019, she made her directorial debut with the video for her song "Xanny". 
-                </p>
-            </div>
-            <div class="panel2" id="tab3">
-                <p class="content2">American singer-songwriter Billie Eilish is the recipient of several awards and nominations,
-                     including seven Grammy Awards, five MTV Video Music Awards, three Billboard Music Awards, 
-                     three Brit Awards, two Teen Choice Awards, four Nickelodeon Kids' Choice Awards, a Golden
-                      Globe Award, and a People's Choice Award, as well as an Academy Award (Oscar).
-
-                    In 2019, Eilish received two Guinness World Records, "Most simultaneous US Hot 100 entries by a female" and "Youngest female at 
-                    No.1 on UK albums chart". </p>
-            </div>
-        </ul>
-    </section>
-    
-   
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-	<script src="js/script.js"></script>
-  
-    <footer>
-        @2022 Kader Bozkurt <br/>
-      </footer> 
 </body>
-   
+
 </html>

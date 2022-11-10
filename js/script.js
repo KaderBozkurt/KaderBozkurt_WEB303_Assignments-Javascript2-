@@ -1,42 +1,18 @@
-$(document).ready(function(){
-    let box = $('.content').hide();
-
-    $('.title1').click( function(){
-        let $selected = $(this);
-
-        box.slideUp();
-
-        $selected.next().slideDown();
-
-        return false;
-        
-    })
-
-    $('.tab').each(function() {
-        let $this = $(this);
-        let $tab = $this.find('li.active')
-        let $link = $tab.find('a')
-        let $panel = $($link.attr('href'));
-
-        $this.on('click', '.tabAnchor', function(e){
-            e.preventDefault();
-            let $link = $(this);
-            let id = this.hash;
-
-            if (id && !$link.parent().is('.active')) {
-                $panel.removeClass('active');
-                $tab.removeClass('active');
-                $panel= $(id).addClass('active');
-                $tab = $link.parent().addClass('active');
-            }
+$(function () {
+    var modal = new Modal();
+    $('#photo-viewer').photoViewer().show().on('click', '.photo-box', function (e) {
+        var $content = $(this).clone().find('img').detach().css({
+            marginLeft: 10,
+            marginTop: 0,
+            width: '100%',
+            height: 'auto'
         });
-
-    });
-
-    let cite = document.createElement("cite");
-    cite.textContent = "Information and photos from Wikipedia";
-    cite.setAttribute("href", "https://en.wikipedia.org/wiki/Billie_Eilish");
-    let ftr = document.getElementsByTagName('footer')[0];
-    ftr.appendChild(cite);
-
+        //modal code goes here
+        
+        modal.open({
+            content: $content,
+            width: 800,
+            height: 450,
+        })
+    });;
 });
