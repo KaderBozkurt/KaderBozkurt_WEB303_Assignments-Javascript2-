@@ -12,7 +12,7 @@ $(function () {
         modal.open({
             content: $content,
             width: 800,
-            height: 450,
+            height: 450
         })
     });;
 });

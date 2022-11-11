@@ -46,10 +46,12 @@ $.fn.photoViewer = function() {
             crossfade($(this)); // Call crossfade()function
         } // to solve async load issue
         });
+        
         $frame.addClass('is-loading');
         $img.attr({                         // Set attributes on <img>
             'src': src,                     // src attribute loads image
-            'alt': this.title || ''          // Add title if one given
+            'alt': this.title || '' 
+                   // Add title if one given
             });
            // $('.photo-frame').attr('href', src);
          }
@@ -88,7 +90,8 @@ class Modal {
         });
     }
 
-    open(settings) { // settings contains content, width and height
+    open(settings) { 
+        // settings contains content, width and height
         this.$content.empty().append(settings.content);
         this.$modal.css({                          // Dimensions
             width: settings.width ?? 'auto',    // Set width
