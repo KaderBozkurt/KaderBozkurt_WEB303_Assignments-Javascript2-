@@ -1,0 +1,52 @@
+{"cast":[
+	{
+		"FirstName":"Daniel ",
+        "LastName": "Radcliffe",
+		"age":"33",
+		"height": "1.65 m",
+		"spouse": "Alma mater"
+	},
+	{
+		"FirstName":"Emma ",
+        "LastName":"Watson",
+		"age":"32",
+		"height": "1.65 m",
+		"spouse": "Leo Robinton"		
+	},
+	{
+		"FirstName":"Rupert",
+        "LastName":"Grint",
+       	"age":"34",
+		"height": "1.73 m",
+		"spouse": "Georgia Groome"		
+	},
+	{
+		"FirstName":"Tom ",
+        "LastName":"Felton",
+		"age":"35",
+		"height": "1.75 m",
+		"spouse": "Jade Olivia "		
+	},
+	{
+		"FirstName":"Matthew ",
+        "LastName":"Lewis",
+		"age":"33",
+		"height": "1.83 m",
+		"spouse": "Angela Jones"			
+	},
+	{
+		"FirstName":"Alan ",
+        "LastName":"Rickman",
+		"age":"70-Died",
+		"height": "1.85 m",
+		"spouse": "Rima Horton"			
+	},
+	{
+		"FirstName":"Maggie ",
+        "LastName":"Smith",
+		"age":"87",
+		"height": "1.65 m",
+		"spouse": "Robert Stephens"			
+	}
+								
+]}
