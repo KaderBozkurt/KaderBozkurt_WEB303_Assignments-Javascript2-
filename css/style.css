@@ -11,4 +11,22 @@ table, th, td {
     
 
   }
- 
+  .sortable{
+    margin: auto;
+  }
+  h1{
+    text-align: center;
+  }
+  .active {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .cascending {
+    display: none;
+  }
+  
+  .cdescending {
+    display: none;
+  }
+  

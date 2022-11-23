@@ -4,49 +4,56 @@
         "LastName": "Radcliffe",
 		"age":"33",
 		"height": "1.65 m",
-		"spouse": "Alma mater"
+		"spouse": "Alma mater",
+		"DateofBirth": "1989-06-23 "
 	},
 	{
 		"FirstName":"Emma ",
         "LastName":"Watson",
 		"age":"32",
 		"height": "1.65 m",
-		"spouse": "Leo Robinton"		
+		"spouse": "Leo Robinton",
+		"DateofBirth": "1990-06-23 "		
 	},
 	{
 		"FirstName":"Rupert",
         "LastName":"Grint",
        	"age":"34",
 		"height": "1.73 m",
-		"spouse": "Georgia Groome"		
+		"spouse": "Georgia Groome",
+		"DateofBirth": "1988-06-23 "		
 	},
 	{
 		"FirstName":"Tom ",
         "LastName":"Felton",
 		"age":"35",
 		"height": "1.75 m",
-		"spouse": "Jade Olivia "		
+		"spouse": "Jade Olivia ",
+		"DateofBirth": "1987-09-22 "	
 	},
 	{
 		"FirstName":"Matthew ",
         "LastName":"Lewis",
 		"age":"33",
 		"height": "1.83 m",
-		"spouse": "Angela Jones"			
+		"spouse": "Angela Jones",
+		"DateofBirth": "1989-06-27 "		
 	},
 	{
 		"FirstName":"Alan ",
         "LastName":"Rickman",
 		"age":"70-Died",
 		"height": "1.85 m",
-		"spouse": "Rima Horton"			
+		"spouse": "Rima Horton",
+		"DateofBirth": "1946-02-21 "		
 	},
 	{
 		"FirstName":"Maggie ",
         "LastName":"Smith",
 		"age":"87",
 		"height": "1.65 m",
-		"spouse": "Robert Stephens"			
+		"spouse": "Robert Stephens",
+		"DateofBirth": "1934-12-28 " 	
 	}
 								
 ]}
